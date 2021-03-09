@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://falicitas.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-03-09T05:36:52.922Z</updated>
+    <updated>2021-03-09T05:37:17.981Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://falicitas.github.io/"/>
     <link rel="self" href="https://falicitas.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://falicitas.github.io/images/avatar.png</logo>
     <icon>https://falicitas.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://falicitas.github.io/post/ce-shi/</id>
+        <link href="https://falicitas.github.io/post/ce-shi/">
+        </link>
+        <updated>2021-03-09T05:37:09.000Z</updated>
+        <content type="html"><![CDATA[<p>乌拉拉</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Educational Codeforces Round 105 (Rated for Div. 2) A ~ E题解]]></title>
         <id>https://falicitas.github.io/post/educational-codeforces-round-105-rated-for-div-2-a-~-e-ti-jie/</id>
