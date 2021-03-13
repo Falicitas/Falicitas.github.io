@@ -7,7 +7,7 @@
 <meta name="description" content="Keep practice and never break.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://falicitas.github.io//favicon.ico?v=1615625504059">
+<link rel="shortcut icon" href="https://falicitas.github.io//favicon.ico?v=1615625711334">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -122,7 +122,7 @@
 <p>听说是经典结论：对于有根树，树上两条路径若有交（至少一个交点），那么一条路径的lca必然在交集内。具体地，是两条路径lca中较深的一个。</p>
 <p>那么枚举每个树点，作为两路径较深的交点。</p>
 <p>实际统计时，发现直接统计仅交一个点的难求。那么就统计所有相交方案，再减去至少交2个点的方案数，分类讨论出所有情况。</p>
-<img src="https://cdn.luogu.com.cn/upload/image_hosting/sagbxw3a.png" style="zoom:50%;" />
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/%E8%B7%AF%E5%BE%84%E8%A6%86%E7%9B%961.png" alt="" loading="lazy"></figure>
 <p>设当前枚举的lca为z。图中蓝色路径跨过z，红色路径以z为lca。那么每枚举一个z，就新增了路径相交方案数 过z蓝线 * 红线 + 红线两两匹配。对于过z的蓝线，由于只查询一次，故路径覆盖用树上差分， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mo>+</mo><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n+m)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">m</span><span class="mclose">)</span></span></span></span> 搞一波。此时设蓝线数为 d[z] 。</p>
 <p>然后就分类讨论红线内部相交超过2的情况，与红线与蓝线相交超过2的情况，乱搞一下就行。</p>
 
@@ -156,7 +156,7 @@
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://falicitas.github.io//images/avatar.png?v=1615625504059" class="no-responsive avatar">
+    <img src="https://falicitas.github.io//images/avatar.png?v=1615625711334" class="no-responsive avatar">
     <div class="text-muted">Keep practice and never break.</div>
     <div class="social-container">
       
