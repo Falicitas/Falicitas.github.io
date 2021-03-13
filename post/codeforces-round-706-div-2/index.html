@@ -7,7 +7,7 @@
 <meta name="description" content="Keep practice and never break.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://falicitas.github.io//favicon.ico?v=1615602303706">
+<link rel="shortcut icon" href="https://falicitas.github.io//favicon.ico?v=1615625504059">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -103,7 +103,7 @@
 <p>打了下表，对于从零开始的连续数列每次会加进最大数+1的数。那么直接n+k就行。</p>
 <p>对于不连续的数列，直接暴力模拟即可。</p>
 <h2 id="c-diamond-miner">C. Diamond Miner</h2>
-<img src="https://cdn.luogu.com.cn/upload/image_hosting/brly0ehq.png" style="zoom:50%;" />
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/%E4%B8%89%E8%A7%92%E5%BD%A21.png" alt="" loading="lazy"></figure>
 <p>对于一个交叉的两条边，利用两边和大于第三边的三角不等式，推出不相交的更优。</p>
 <p>整体的话，即从最上/最右侧的点开始匹配，总长度最小。</p>
 <h2 id="d-lets-go-hiking">D. Let's Go Hiking</h2>
@@ -115,10 +115,10 @@
 <p>由于是边权为1的图，先 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> 求出两点最短距离。</p>
 <p>枚举两个点，考虑两个点的bfs生成树是否存在。</p>
 <p>那么先考虑两个点最短路径是否唯一时会怎样。</p>
-<figure data-type="image" tabindex="1"><img src="https://cdn.luogu.com.cn/upload/image_hosting/kbt2ntps.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/bfs%E7%94%9F%E6%88%90%E6%A0%91.png" alt="" loading="lazy"></figure>
 <p>可以发现，不唯一时，bfs生成树必不会以u,v两个同时为根。</p>
 <p>那么当最短路唯一，考虑不在最短路径上，其他点u的贡献。</p>
-<figure data-type="image" tabindex="2"><img src="https://cdn.luogu.com.cn/upload/image_hosting/3mvr6txi.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/bfs%E7%94%9F%E6%88%90%E6%A0%912.png" alt="" loading="lazy"></figure>
 <p>对于图中的u,v，显然有两个bfs生成树。那么除去u，v，每个点都要被从u，v延伸出的bfs生成树拉一条边连起来。</p>
 <p>对于一个点x，枚举已经在bfs生成树内的点y（即相对于x，y距离 u,v 的bfs距离更近），看有多少个y（记作cnt）在原图满足</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mtable><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mi>d</mi><mo>[</mo><mi>u</mi><mo>]</mo><mo>[</mo><mi>x</mi><mo>]</mo><mo>=</mo><mi>d</mi><mo>[</mo><mi>u</mi><mo>]</mo><mo>[</mo><mi>y</mi><mo>]</mo><mo>+</mo><mn>1</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mi>d</mi><mo>[</mo><mi>v</mi><mo>]</mo><mo>[</mo><mi>x</mi><mo>]</mo><mo>=</mo><mi>d</mi><mo>[</mo><mi>v</mi><mo>]</mo><mo>[</mo><mi>y</mi><mo>]</mo><mo>+</mo><mn>1</mn></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}
@@ -160,7 +160,7 @@
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://falicitas.github.io//images/avatar.png?v=1615602303706" class="no-responsive avatar">
+    <img src="https://falicitas.github.io//images/avatar.png?v=1615625504059" class="no-responsive avatar">
     <div class="text-muted">Keep practice and never break.</div>
     <div class="social-container">
       
