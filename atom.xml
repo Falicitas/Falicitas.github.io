@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://falicitas.github.io</id>
+    <title>Tingzhang Cai&apos;s blogs</title>
+    <updated>2024-01-06T11:36:39.321Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://falicitas.github.io"/>
+    <link rel="self" href="https://falicitas.github.io/atom.xml"/>
+    <subtitle>Eclipse first, and the rest nowhere.</subtitle>
+    <logo>https://falicitas.github.io/images/avatar.png</logo>
+    <icon>https://falicitas.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Tingzhang Cai&apos;s blogs</rights>
+    <entry>
+        <title type="html"><![CDATA[24年归档-2-NextJsDashboard小节完结]]></title>
+        <id>https://falicitas.github.io/post/24-nian-gui-dang-2-nextjsdashboard-xiao-jie-wan-jie/</id>
+        <link href="https://falicitas.github.io/post/24-nian-gui-dang-2-nextjsdashboard-xiao-jie-wan-jie/">
+        </link>
+        <updated>2024-01-06T11:35:43.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[24 年归档-1-NextJsDashboard小节1]]></title>
+        <id>https://falicitas.github.io/post/24-nian-gui-dang-1-nextjsdashboard-xiao-jie-1/</id>
+        <link href="https://falicitas.github.io/post/24-nian-gui-dang-1-nextjsdashboard-xiao-jie-1/">
+        </link>
+        <updated>2024-01-02T15:44:45.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一性原理-入门]]></title>
+        <id>https://falicitas.github.io/post/di-yi-xing-yuan-li-ru-men/</id>
+        <link href="https://falicitas.github.io/post/di-yi-xing-yuan-li-ru-men/">
+        </link>
+        <updated>2023-11-08T15:35:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>这是一篇尝试给第一性原理祛魅的文章。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这是一篇尝试给第一性原理祛魅的文章。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[js-异步编程、事件环]]></title>
+        <id>https://falicitas.github.io/post/js-yi-bu-bian-cheng-shi-jian-huan/</id>
+        <link href="https://falicitas.github.io/post/js-yi-bu-bian-cheng-shi-jian-huan/">
+        </link>
+        <updated>2023-11-02T11:33:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>js 是把一个单线程压榨到极致的好语言，谁赞成，谁反对</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>js 是把一个单线程压榨到极致的好语言，谁赞成，谁反对</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微服务治理-微服务模式、Seata-入门]]></title>
+        <id>https://falicitas.github.io/post/wei-fu-wu-zhi-li-seata-ru-men/</id>
+        <link href="https://falicitas.github.io/post/wei-fu-wu-zhi-li-seata-ru-men/">
+        </link>
+        <updated>2023-10-27T14:39:13.000Z</updated>
+        <summary type="html"><![CDATA[<p>这是微服务治理的第一期。最近在家闲来无事，碰巧家中又有几台设备可供我折腾。对分布式服务管理的兴趣由来已久，就打算开这个坑了。这个系列的预期是前期参考诸多博客，做交叉验证；后期希望能结合一些自己的玩具项目的实践。事不宜迟，&quot;Link start!&quot;</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这是微服务治理的第一期。最近在家闲来无事，碰巧家中又有几台设备可供我折腾。对分布式服务管理的兴趣由来已久，就打算开这个坑了。这个系列的预期是前期参考诸多博客，做交叉验证；后期希望能结合一些自己的玩具项目的实践。事不宜迟，&quot;Link start!&quot;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第十八届同济大学程序设计竞赛暨高校网络友谊赛题解]]></title>
+        <id>https://falicitas.github.io/post/di-shi-ba-jie-tong-ji-da-xue-cheng-xu-she-ji-jing-sai-ji-gao-xiao-wang-luo-you-yi-sai-ti-jie/</id>
+        <link href="https://falicitas.github.io/post/di-shi-ba-jie-tong-ji-da-xue-cheng-xu-she-ji-jing-sai-ji-gao-xiao-wang-luo-you-yi-sai-ti-jie/">
+        </link>
+        <updated>2021-05-25T08:31:28.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codeforces Round #704 (Div. 2) A ~ E 题解]]></title>
+        <id>https://falicitas.github.io/post/codeforces-round-704-div-2-a-~-e-ti-jie/</id>
+        <link href="https://falicitas.github.io/post/codeforces-round-704-div-2-a-~-e-ti-jie/">
+        </link>
+        <updated>2021-03-15T13:25:51.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codeforces Round #707 (Div. 2, based on Moscow Open Olympiad in Informatics) A ~ D 题解]]></title>
+        <id>https://falicitas.github.io/post/codeforces-round-707-div-2-based-on-moscow-open-olympiad-in-informatics-a-~-d-ti-jie/</id>
+        <link href="https://falicitas.github.io/post/codeforces-round-707-div-2-based-on-moscow-open-olympiad-in-informatics-a-~-d-ti-jie/">
+        </link>
+        <updated>2021-03-15T12:06:40.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codeforces Round #705 (Div. 2) A ~ F 题解]]></title>
+        <id>https://falicitas.github.io/post/codeforces-round-705-div-2/</id>
+        <link href="https://falicitas.github.io/post/codeforces-round-705-div-2/">
+        </link>
+        <updated>2021-03-14T13:27:52.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codeforces Round #706 (Div. 2) A ~ F题解]]></title>
+        <id>https://falicitas.github.io/post/codeforces-round-706-div-2/</id>
+        <link href="https://falicitas.github.io/post/codeforces-round-706-div-2/">
+        </link>
+        <updated>2021-03-11T14:12:42.000Z</updated>
+    </entry>
+</feed>
