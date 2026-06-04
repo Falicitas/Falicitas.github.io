@@ -1,3 +1,32 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://falicitas.github.io/"
+locale = "zh-CN"
+title = "Tingzhang Cai's blogs"
+theme = "PaperMod"
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 10
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName  = "atom"
+
+[params]
+  ShowReadingTime = true
+  defaultTheme = "auto"
+  [params.homeInfoParams]
+    Title = "Tingzhang Cai (Kinesis)"
+    Content = "个人博客"
+
+[[menu.main]]
+  name = "Posts"
+  url  = "/posts/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  url  = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "RSS"
+  url  = "/atom.xml"
+  weight = 3
