@@ -116,7 +116,7 @@ $ systemctl status systemd-veritysetup@root.service
    Main PID: 204 (code=exited, status=0/SUCCESS)
 ```
 
-`Type=oneshot` 自不必说，`RemainAfterExit=yes` 对于其他 unit 之间能则会改变依赖关系：B 要在 A 之后跑（`After=A`），或者 B 需要 A（`Requires=A`）。`active (exited)` 的 `active` 实际上是成功结束（有个 pending 状态是 `activating`），而 Requires 会认为 `inactive` 是不满足条件的。所以 `RemainAfterExit=yes` 要加这个。
+`Type=oneshot` 自不必说。默认情况下 oneshot 命令一退出，service 就掉成 `inactive`。`RemainAfterExit=yes` 对于其他 unit 之间能则会改变依赖关系：B 要在 A 之后跑（`After=A`），或者 B 需要 A（`Requires=A`）。`active (exited)` 的 `active` 实际上是成功结束（有个 pending 状态是 `activating`），而 Requires 会认为 `inactive` 是不满足条件的。所以 `RemainAfterExit=yes` 要加这个。
 
 ### 第三步：内核 dm-verity 接管，逐块校验
 
