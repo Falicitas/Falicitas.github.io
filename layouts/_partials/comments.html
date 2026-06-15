@@ -1,0 +1,56 @@
+{{- /* Comments area start (giscus) */ -}}
+{{- /* Config lives in [params.giscus] in hugo.toml. See https://giscus.app */ -}}
+{{- with site.Params.giscus }}
+{{- if and .repo .repoId .categoryId }}
+<script src="https://giscus.app/client.js"
+        data-repo="{{ .repo }}"
+        data-repo-id="{{ .repoId }}"
+        data-category="{{ .category | default `Announcements` }}"
+        data-category-id="{{ .categoryId }}"
+        data-mapping="{{ .mapping | default `pathname` }}"
+        data-strict="{{ .strict | default `0` }}"
+        data-reactions-enabled="{{ .reactionsEnabled | default `1` }}"
+        data-emit-metadata="{{ .emitMetadata | default `0` }}"
+        data-input-position="{{ .inputPosition | default `bottom` }}"
+        data-theme="{{ .theme | default `preferred_color_scheme` }}"
+        data-lang="{{ .lang | default `zh-CN` }}"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+<script>
+  (function () {
+    const giscusOrigin = "https://giscus.app";
+    // PaperMod records the active theme on <html data-theme="dark|light">.
+    const currentTheme = () =>
+      document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+
+    function applyTheme() {
+      const iframe = document.querySelector("iframe.giscus-frame");
+      if (!iframe) return;
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: currentTheme() } } },
+        giscusOrigin
+      );
+    }
+
+    // Align giscus with the site theme once its iframe has loaded the discussion.
+    window.addEventListener("message", (event) => {
+      if (event.origin !== giscusOrigin) return;
+      const data = event.data;
+      if (!data || !data.giscus || !("discussion" in data.giscus)) return;
+      applyTheme();
+    });
+
+    // Keep giscus in sync when the visitor toggles the theme. The toggle button
+    // flips data-theme in its own click handler, so defer the read to the next
+    // tick to observe the updated value regardless of listener order.
+    const toggle = document.getElementById("theme-toggle");
+    if (toggle) {
+      toggle.addEventListener("click", () => setTimeout(applyTheme, 0));
+    }
+  })();
+</script>
+{{- end }}
+{{- end }}
+{{- /* Comments area end */ -}}

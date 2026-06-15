@@ -14,9 +14,22 @@ hasCJKLanguage = true
 [params]
   ShowReadingTime = true
   defaultTheme = "auto"
+  comments = true
   [params.homeInfoParams]
     Title = "Kinesis"
     Content = "个人博客"
+  [params.giscus]
+    repo = "Falicitas/Falicitas.github.io"
+    repoId = "MDEwOlJlcG9zaXRvcnkzNDU3MDE5NzY="
+    category = "Announcements"
+    categoryId = "DIC_kwDOFJr-WM4C_K4t"
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "zh-CN"
 
 [[menu.main]]
   name = "Posts"
